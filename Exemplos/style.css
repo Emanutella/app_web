@@ -1,0 +1,19 @@
+body {
+    background-color: lightpink;
+}
+h1 {
+    color: deeppink;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    background-color: pink;
+}
+/*hover é quando o mouse passa por cima*/
+h1:hover{
+    color: magenta;
+}
+h2, h3, h4, atividade
+a{
+    text-decoration: maroon;
+font-size: medium;
+    font-weight: bold;
+}

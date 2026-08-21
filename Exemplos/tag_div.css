@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: lightpink;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 10px;
+}
+.container {
+    width: 100%;
+    border: none;
+    background: lightcoral;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 10px;
+}
+.menu {
+    width: 50px;
+    height: 100px;
+    background-color: burlywood;
+    border: black;
+    border-radius: 10px;
+}

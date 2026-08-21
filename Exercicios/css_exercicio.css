@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+a{
+    text-align: center;
+    font-size: 36px ;
+    color: white;
+    background-color: red;
+    font-family: Arial;
+}

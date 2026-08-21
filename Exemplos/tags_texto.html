@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+<h2>Exemplos de formulários</h2>
+
+<!--O metodo deve ser post-->
+
+<form action="" method="get">
+
+  <!--Exemplo 1 de um label input-->
+  <label>
+    Nome:
+<!--O nome deve começar com form_-->
+  <input name="form_nome" type="text" placeholder="Digite seu nome aqui" required>
+  </label>
+
+  <br>
+  <br>
+
+<!--Exemplo 2-->
+  <label for="input 2">Sobrenome:</label>
+  <input id="input 2" name="Sobrenome" type="text" placeholder="Ex:Silva">
+
+  <br>
+  <br>
+  <label>
+    Data de Nascimento:
+    <input name="form_data_de_nascimento" type="date">
+  </label>
+  <br>
+  <br>
+  <label>
+    Idade:
+    <input name="form_idade" type="text" placeholder="Digite sua idade aqui">
+  </label>
+  <br>
+  <br>
+  <label>Qual o seu ano atual do Ensino Médio?</label>
+  <br>
+  <br>
+<label>
+  1 EM
+  <input name="form_EM" value="1" type="radio">
+</label>
+  <br>
+  <br>
+  <label>
+  2 EM
+  <input name="form_EM" value="2" type="radio">
+</label>
+  <br>
+  <br>
+  <label>
+  3 EM
+  <input name="form_EM" value="3" type="radio">
+</label>
+  <br>
+  <br>
+<label>Qual a sua carteira de motorista?</label>
+  <br>
+  <br>
+  <label>
+    Carro
+    <input name="form_carro" type="checkbox">
+  </label>
+  <br>
+  <br>
+    <label>
+    Moto
+    <input name="form_moto" type="checkbox">
+  </label>
+  <br>
+  <br>
+    <label>
+    Caminhão
+    <input name="form_caminhao" type="checkbox">
+  </label>
+  <br>
+  <br>
+    <label>
+    Onibus
+    <input name="form_onibus" type="checkbox">
+  </label>
+  <br>
+  <br>
+    <label>
+    Cidade:
+      <select name="form_cidade">
+        <option value="Guararapes">Guararapes</option>
+        <option value="Aracatuba">Araçatuba</option>
+        <option value="Valparaiso">Valparaíso</option>
+      </select>
+    </label>
+  <br>
+  <br>
+
+  <label>
+    Gostaria de deixar um comentário:
+    <br>
+    <textarea rows="10" cols="50"> </textarea>
+  </label>
+  <br>
+  <br>
+  <button type="">Enviar</button>
+  <button type="">Limpar</button>
+</form>
+</body>
+</html>
